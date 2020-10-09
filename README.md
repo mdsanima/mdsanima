@@ -80,8 +80,12 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 
 <br/>
 
+## Latest Blog Post
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ## License
-Mdsanima is released under the terms of the [MIT License](http://www.opensource.org/licenses/MIT).
+Mdsanima is released under the terms of [MIT License](http://www.opensource.org/licenses/MIT).
 
 [website]: https://mdsanima.com/
 [website_app]: https://app.mdsanima.com
