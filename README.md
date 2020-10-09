@@ -98,6 +98,9 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 - [Mograph Animation Cinema 4D and OctaneRender](http://feedproxy.google.com/~r/VisualBlender/~3/lju_U1jKzO4/mograph-animation-cinema-4d-and.html)
 <!-- BLOG-POST-LIST:END -->
 
+## GitHub Stats
+<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" />
+
 ## License
 Mdsanima is released under the terms of [MIT License](http://www.opensource.org/licenses/MIT).
 
