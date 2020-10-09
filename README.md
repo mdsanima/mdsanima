@@ -101,8 +101,7 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 ## License
 Mdsanima is released under the terms of [MIT License](http://www.opensource.org/licenses/MIT).
 
-## GitHub Stats
-<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" /></img>
+<img align="center" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" /></img>
 
 [website]: https://mdsanima.com/
 [website_app]: https://app.mdsanima.com
