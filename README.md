@@ -79,6 +79,10 @@ or
 ## Connect With Me
 Hi there, I'm Marcin - aka [MDSANIMA][website]
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/toudajew?color=1DA1F2&logo=twitter&style=for-the-badge)][twitteer_toudajew]
+[![Twitter Follow](https://img.shields.io/twitter/follow/mdsanima?color=1DA1F2&logo=twitter&style=for-the-badge)][twitteer_mdsanima]
+[![Twitter Follow](https://img.shields.io/twitter/follow/str9led?color=1DA1F2&logo=twitter&style=for-the-badge)][twitteer_str9led]
+
 [<img align="left" alt="mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="app.mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app]
 [<img align="left" alt="mdsanima | Blogger" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog]
