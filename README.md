@@ -67,6 +67,19 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][website_app]
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][website_app]
 
+<br/>
+
+## 3D Stuff
+
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/blender.svg" />][blender]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/houdini.svg" />][houdini]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/unrealengine.svg" />][unrealengine]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/cinema4d.svg" />][cinema4d]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/nuke.svg" />][nuke]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/gimp.svg" />][gimp]
+
+<br/>
+
 ## License
 Mdsanima is released under the terms of the [MIT License](http://www.opensource.org/licenses/MIT).
 
@@ -86,3 +99,10 @@ Mdsanima is released under the terms of the [MIT License](http://www.opensource.
 [facebook]: https://www.facebook.com/mdsanima
 [mailchimp]: https://mdsanima.mailchimpsites.com
 [turbosquid]: https://goo.gl/7TYKfT
+
+[blender]: https://www.blender.org
+[houdini]: https://www.sidefx.com
+[unrealengine]: https://unrealengine.com
+[cinema4d]: https://maxon.net
+[nuke]: https://foundry.com
+[gimp]: https://gimp.org
