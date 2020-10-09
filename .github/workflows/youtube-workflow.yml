@@ -1,8 +1,8 @@
 name: Latest YouTube Video Workflow
 on:
   schedule: # Run workflow automatically
-    # Runs every hour
-    - cron: '0 * * * *' 
+    # Runs every sunday at 04:05
+    - cron: '5 4 * * sun' 
   workflow_dispatch: # Run workflow manually
 jobs:
   update-readme-with-blog:
