@@ -31,21 +31,22 @@ or
 ## Connect With Me
 Hi there, I'm Marcin - aka [MDSANIMA][website]
 
-[<img align="left" alt="mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="app.mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app]
-[<img align="left" alt="mdsanima | Blogger" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog]
-[<img align="left" alt="mdsanima | GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
-[<img align="left" alt="mdsanima | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="mdsanima | Vimeo" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vimeo.svg" />][vimeo]
-[<img align="left" alt="toudajew | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_toudajew]
-[<img align="left" alt="mdsanima | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_mdsanima]
-[<img align="left" alt="str9led | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_str9led]
-[<img align="left" alt="mdsanima | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="mdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_mdsanima]
-[<img align="left" alt="vfxmdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_vfxmdsanima]
-[<img align="left" alt="str9led | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_str9led]
-[<img align="left" alt="mdsanima | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
-[<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][mailchimp]
+[<img align="left" alt="mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website](url){:target="_blank"}
+[<img align="left" alt="app.mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Blogger" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog](url){:target="_blank"}
+[<img align="left" alt="mdsanima | GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github](url){:target="_blank"}
+[<img align="left" alt="mdsanima | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Vimeo" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vimeo.svg" />][vimeo](url){:target="_blank"}
+[<img align="left" alt="toudajew | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_toudajew](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_mdsanima](url){:target="_blank"}
+[<img align="left" alt="str9led | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_str9led](url){:target="_blank"}
+[<img align="left" alt="mdsanima | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_mdsanima](url){:target="_blank"}
+[<img align="left" alt="vfxmdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_vfxmdsanima](url){:target="_blank"}
+[<img align="left" alt="str9led | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_str9led](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mailchimp.svg" />][mailchimp](url){:target="_blank"}
+[<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/turbosquid.svg" />][turbosquid](url){:target="_blank"}
 
 <br/>
 
@@ -67,3 +68,4 @@ Mdsanima is released under the terms of the [MIT License](http://www.opensource.
 [instagram_str9led]: https://instagram.com/str9led
 [facebook]: https://www.facebook.com/mdsanima
 [mailchimp]: https://mdsanima.mailchimpsites.com
+[turbosquid]: https://goo.gl/7TYKfT
