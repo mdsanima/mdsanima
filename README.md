@@ -80,6 +80,10 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 
 <br/>
 
+## Latest YouTube Videos
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
+
 ## Latest Blog Post
 <!-- BLOG-POST-LIST:START -->
 - [4K SKY TIMELAPS Starlink SpaceX Satellite](http://feedproxy.google.com/~r/VisualBlender/~3/JNEIrF0Cqgw/4k-sky-timelaps-starlink-spacex.html)
