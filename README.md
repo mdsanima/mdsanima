@@ -77,8 +77,9 @@ or
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
-<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" />
+<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" /></img>
 
+<br/>
 <br/>
 <br/>
 <br/>
