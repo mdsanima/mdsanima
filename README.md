@@ -82,6 +82,11 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 
 ## Latest YouTube Videos
 <!-- YOUTUBE:START -->
+- [4K SKY TIMELAPS | Starlink SpaceX Satellite | MDSANIMA.COM](https://www.youtube.com/watch?v=dW9VRi_NmZQ)
+- [Sharp Old Radio Turntable 3D MODEL Link in the Description](https://www.youtube.com/watch?v=qAER517bznI)
+- [Lego Architect Turntable 3D MODEL Link in the Description](https://www.youtube.com/watch?v=jLsj7MqR85Y)
+- [Lego Mindstorms Reptar Turnable 3D MODEL Link in the Description](https://www.youtube.com/watch?v=uyqqlyDHJ-Y)
+- [Lego Mindstorms Grip3r Turnable 3D MODEL Link in the Description](https://www.youtube.com/watch?v=VRYSmrVAXew)
 <!-- YOUTUBE:END -->
 
 ## Latest Blog Post
