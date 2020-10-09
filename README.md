@@ -82,6 +82,11 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 
 ## Latest Blog Post
 <!-- BLOG-POST-LIST:START -->
+- [4K SKY TIMELAPS Starlink SpaceX Satellite](http://feedproxy.google.com/~r/VisualBlender/~3/JNEIrF0Cqgw/4k-sky-timelaps-starlink-spacex.html)
+- [Starlink SpaceX Elon Musk Satellite Photography](http://feedproxy.google.com/~r/VisualBlender/~3/3yCWpT4c9pE/starlink-spacex-elon-musk-satellite.html)
+- [Fruits Dance Man Mograph Animation Cinema 4D | MDSANIMA](http://feedproxy.google.com/~r/VisualBlender/~3/NwAQy4HTvUM/fruits-dance-man-mograph-animation.html)
+- [Strawberry Dance Man Cinema 4D Animation | MDSANIMA](http://feedproxy.google.com/~r/VisualBlender/~3/Jx2mfuWKOsE/strawberry-dance-man-cinema-4d.html)
+- [Mograph Animation Cinema 4D and OctaneRender](http://feedproxy.google.com/~r/VisualBlender/~3/lju_U1jKzO4/mograph-animation-cinema-4d-and.html)
 <!-- BLOG-POST-LIST:END -->
 
 ## License
