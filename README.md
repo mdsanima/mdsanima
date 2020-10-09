@@ -76,17 +76,6 @@ or
 - [Mograph Animation Cinema 4D and OctaneRender](http://feedproxy.google.com/~r/VisualBlender/~3/lju_U1jKzO4/mograph-animation-cinema-4d-and.html)
 <!-- BLOG-POST-LIST:END -->
 
-## GitHub Stats
-<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" /></img>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## Connect With Me
 Hi there, I'm Marcin - aka [MDSANIMA][website]
 
@@ -108,10 +97,12 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 [<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/turbosquid.svg" />][turbosquid]
 
 <br/>
-<br/>
 
 ## License
 Mdsanima is released under the terms of [MIT License](http://www.opensource.org/licenses/MIT).
+
+## GitHub Stats
+<img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" /></img>
 
 [website]: https://mdsanima.com/
 [website_app]: https://app.mdsanima.com
