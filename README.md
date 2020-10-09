@@ -80,6 +80,7 @@ or
 <img align="left" alt="mdsanima GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mdsanima&show_icons=true&hide_border=true" />
 
 <br/>
+<br/>
 
 ## Connect With Me
 Hi there, I'm Marcin - aka [MDSANIMA][website]
@@ -101,6 +102,7 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 [<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mailchimp.svg" />][mailchimp]
 [<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/turbosquid.svg" />][turbosquid]
 
+<br/>
 <br/>
 
 ## License
