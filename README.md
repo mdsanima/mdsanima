@@ -1,6 +1,10 @@
 MDSANIMA
 ========
 
+[![Latest version on PyPI](https://img.shields.io/pypi/v/mdsanima.svg)](https://pypi.org/project/mdsanima)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/mdsanima.svg)](#Installation)
+[![Downloads](https://pepy.tech/badge/mdsanima)](https://pepy.tech/project/mdsanima)
+
 The package contains modules that will help in calculating rendering time.
 
 The package also includes a module for print your text with an animation counting up or down.
