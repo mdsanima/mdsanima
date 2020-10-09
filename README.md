@@ -79,9 +79,9 @@ or
 ## Connect With Me
 Hi there, I'm Marcin - aka [MDSANIMA][website]
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/toudajew?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Ftoudajew&screen_name=toudajew)
-[![Twitter Follow](https://img.shields.io/twitter/follow/mdsanima?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fmdsanima&screen_name=mdsanima)
-[![Twitter Follow](https://img.shields.io/twitter/follow/str9led?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fstr9led&screen_name=str9led)
+[![Twitter Follow](https://img.shields.io/twitter/follow/toudajew?color=1DA1F2&logo=twitter&style=flat)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Ftoudajew&screen_name=toudajew)
+[![Twitter Follow](https://img.shields.io/twitter/follow/mdsanima?color=1DA1F2&logo=twitter&style=flat)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fmdsanima&screen_name=mdsanima)
+[![Twitter Follow](https://img.shields.io/twitter/follow/str9led?color=1DA1F2&logo=twitter&style=flat)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fstr9led&screen_name=str9led)
 
 [<img align="left" alt="mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="app.mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app]
