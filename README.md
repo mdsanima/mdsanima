@@ -2,7 +2,8 @@ MDSANIMA
 ========
 
 [![Latest version on PyPI](https://img.shields.io/pypi/v/mdsanima.svg)](https://pypi.org/project/mdsanima)
-[![Supported Python versions](https://img.shields.io/pypi/pyversions/mdsanima.svg)](#Installation)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/mdsanima.svg)](#Installation)
+[![Documentation](https://readthedocs.org/projects/mdsanima/badge/?version=latest)](https://mdsanima.readthedocs.io)
 [![Downloads](https://pepy.tech/badge/mdsanima)](https://pepy.tech/project/mdsanima)
 
 The package contains modules that will help in calculating rendering time.
@@ -10,40 +11,52 @@ The package contains modules that will help in calculating rendering time.
 The package also includes a module for print your text with an animation counting up or down.
 
 ## Instalation
-MDSANIMA pacage only works on Python 3
+`MDSANIMA` package only works in `Python 3.6` or later.
 
-    python -m pip install mdsanima
+    python -m pip install mdsanima              # install latest version
+    python -m pip install mdsanima==0.1.1       # install specific version
 
-or
+## Upgrade
 
-    python3 -m pip install mdsanima
+    python -m pip install --upgrade mdsanima    # upgrade to latest version
+
+## Uninstalling Packages
+
+    python -m pip uninstall mdsanima            # uninstall package
 
 ## Usage
+Module `render_time` returns print of render stats.
 
-    from mdsanima import render_time
-    from mdsanima import count_down
-    from mdsanima import count_up
+    >>> from mdsanima import render_time
+    >>> render_time(512, 1, 0, 24, 128)
 
-    render_time(2400, 21, 1, 30)
-    count_down('Your text ', 20, 0.1)
-    count_up('Your text ', 500, 0.001)
+Module `count_down` and `count_up` returns print text and count animation.
+
+    >>> from mdsanima import count_down
+    >>> from mdsanima import count_up
+
+    >>> count_down('Your text ', 20, 0.1)
+    >>> count_up('Your text ', 500, 0.001)
+
+## Documentation
+Full documentation of `MDSANIMA` package here [documentation](https://mdsanima.readthedocs.io)
 
 ## Languages and Tools
 
-[<img align="left" alt="Ubuntu" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png" />][website_app]
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][website_app]
-[<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][website_app]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][website_app]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][website_app]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][website_app]
-[<img align="left" alt="Firebase" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />][website_app]
-[<img align="left" alt="Azure" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png" />][website_app]
-[<img align="left" alt="Aws" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" />][website_app]
-[<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][website_app]
-[<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][website_app]
-[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][website_app]
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][website_app]
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][website_app]
+[<img align="left" alt="Ubuntu" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png" />][website_app]
+[<img align="left" alt="Visual Studio Code" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][website_app]
+[<img align="left" alt="Python" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][website_app]
+[<img align="left" alt="HTML5" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][website_app]
+[<img align="left" alt="CSS3" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][website_app]
+[<img align="left" alt="JavaScript" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][website_app]
+[<img align="left" alt="Firebase" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />][website_app]
+[<img align="left" alt="Azure" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png" />][website_app]
+[<img align="left" alt="Aws" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" />][website_app]
+[<img align="left" alt="SQL" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][website_app]
+[<img align="left" alt="MySQL" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][website_app]
+[<img align="left" alt="Git" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][website_app]
+[<img align="left" alt="GitHub" width="27px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][website_app]
+[<img align="left" alt="Terminal" width="27px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][website_app]
 
 <br/>
 
@@ -83,22 +96,23 @@ Hi there, I'm Marcin - aka [MDSANIMA][website]
 [![Twitter Mdsanima Follow](https://img.shields.io/twitter/follow/mdsanima?color=1DA1F2&logo=twitter&style=flat)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fmdsanima&screen_name=mdsanima)
 [![Twitter Str9led Follow](https://img.shields.io/twitter/follow/str9led?color=1DA1F2&logo=twitter&style=flat)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fstr9led&screen_name=str9led)
 
-[<img align="left" alt="mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="app.mdsanima.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app]
-[<img align="left" alt="mdsanima | Blogger" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog]
-[<img align="left" alt="mdsanima | GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
-[<img align="left" alt="mdsanima | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="mdsanima | Vimeo" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vimeo.svg" />][vimeo]
-[<img align="left" alt="toudajew | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_toudajew]
-[<img align="left" alt="mdsanima | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_mdsanima]
-[<img align="left" alt="str9led | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_str9led]
-[<img align="left" alt="mdsanima | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="mdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_mdsanima]
-[<img align="left" alt="vfxmdsanima | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_vfxmdsanima]
-[<img align="left" alt="str9led | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_str9led]
-[<img align="left" alt="mdsanima | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
-[<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mailchimp.svg" />][mailchimp]
-[<img align="left" alt="mdsanima | Mailchimp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/turbosquid.svg" />][turbosquid]
+[<img align="left" alt="mdsanima.com" width="23px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="app.mdsanima.com" width="23px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website_app]
+[<img align="left" alt="blender Blogger" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog_blender]
+[<img align="left" alt="mdsanima Blogger" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />][blog_mdsanima]
+[<img align="left" alt="mdsanima GitHub" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
+[<img align="left" alt="mdsanima YouTube" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="str9led Vimeo" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vimeo.svg" />][vimeo]
+[<img align="left" alt="toudajew Twitter" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_toudajew]
+[<img align="left" alt="mdsanima Twitter" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_mdsanima]
+[<img align="left" alt="str9led Twitter" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter_str9led]
+[<img align="left" alt="mdsanima LinkedIn" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="mdsanima Instagram" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_mdsanima]
+[<img align="left" alt="vfxmdsanima Instagram" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_vfxmdsanima]
+[<img align="left" alt="str9led Instagram" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram_str9led]
+[<img align="left" alt="mdsanima Facebook" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
+[<img align="left" alt="mdsanima Mailchimp" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mailchimp.svg" />][mailchimp]
+[<img align="left" alt="str9led Turbosquid" width="23px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/turbosquid.svg" />][turbosquid]
 
 <br/>
 
@@ -109,7 +123,8 @@ Mdsanima is released under the terms of [MIT License](http://www.opensource.org/
 
 [website]: https://mdsanima.com/
 [website_app]: https://app.mdsanima.com
-[blog]: https://blendervisual.blogspot.com
+[blog_blender]: https://blendervisual.blogspot.com
+[blog_mdsanima]: https://mdsanima.blogspot.com
 [github]: https://github.com/mdsanima
 [youtube]: https://youtube.com/mdsanima
 [vimeo]: https://vimeo.com/str9led
