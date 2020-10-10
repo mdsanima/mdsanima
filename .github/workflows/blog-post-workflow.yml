@@ -13,3 +13,5 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://feeds.feedburner.com/VisualBlender"
+          comment_tag_name: "BLOGSPOT"
+          commit_message: "Updated readme with the latest blog post"
