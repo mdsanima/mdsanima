@@ -81,7 +81,7 @@ setup(name=PACKAGE_NAME,
         python_requires='>=3.6',
         keywords=KEYWORDS,
         classifiers=[
-            'Development Status :: 1 - Production/Stable',
+            'Development Status :: 5 - Production/Stable',
             'Intended Audience :: Developers',
             'License :: OSI Approved :: MIT License',
             'Natural Language :: English',
