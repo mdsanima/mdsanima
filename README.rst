@@ -29,7 +29,7 @@ Install Package
 
 .. warning::
 
-    :guilabel:`MDSANIMA` package only works in ``Python 3.6`` or later.
+    ``MDSANIMA`` package only works in ``Python 3.6`` or later.
 
 .. code::
 
@@ -66,7 +66,7 @@ Module ``count_down`` and ``count_up`` returns print text and count animation.
 
 Documentation
 -------------
-Full :guilabel:`MDSANIMA` package documentation can be found here documentation_
+Full ``MDSANIMA`` package documentation can be found here documentation_
 
 .. _documentation: https://mdsanima.readthedocs.io
 

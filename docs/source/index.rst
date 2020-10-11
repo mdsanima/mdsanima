@@ -65,7 +65,7 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-:guilabel:`WE LOVE PYTHON THIS IS THE BEST PROGRAMING LANGUAGE IN THE ENTIRE WORLD!`
+``WE LOVE PYTHON THIS IS THE BEST PROGRAMING LANGUAGE IN THE ENTIRE WORLD!``
 
 .. meta::
    :description: The MDSANIMA Python Pacage documentation

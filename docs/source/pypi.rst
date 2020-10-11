@@ -252,7 +252,7 @@ Finally Send To PyPi
 
    That’s it. Now anyone can install your package with ``python -m pip install my_package``. 
    
-   Good job! Keep Coding! :guilabel:`We LOVE PYTHON`
+   Good job! Keep Coding! ``We LOVE PYTHON``
 
 Bash Script
 ~~~~~~~~~~~

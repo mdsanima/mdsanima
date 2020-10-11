@@ -16,7 +16,7 @@ Version 0.1.0
 -------------
 :Date: October 08, 2020
 
-First release :guilabel:`MDSANIMA` Package. Here we have the update steps for ``0.1.0`` for people to follow.
+First release ``MDSANIMA`` Package. Here we have the update steps for ``0.1.0`` for people to follow.
 
 * `@mdsanima <https://github.com/mdsanima>`__: Added module ``render_time``.
 * `@mdsanima <https://github.com/mdsanima>`__: Added module ``count_down``.
