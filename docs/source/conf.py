@@ -85,3 +85,5 @@ html_static_path = ['_static']
 #     'includehidden': True,
 #     'titles_only': False
 # }
+
+master_doc = 'index'
