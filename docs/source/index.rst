@@ -69,4 +69,4 @@ Indices and tables
 
 .. meta::
    :description: The MDSANIMA Python Pacage documentation
-   :keywords: mdsanima, render time calculator, python, pythondeveloper, render time, 3d rendering, 3d modeling, Sphinx, documentation, builder
+   :keywords: mdsanima, render time calculator, python, pythondeveloper, render time, 3d rendering, 3d modeling, Sphinx, documentation, builder, mdsanima documentation
