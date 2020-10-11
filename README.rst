@@ -260,7 +260,7 @@ My Social Media and Websites.
 
 .. |website| image:: https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg
     :alt: MDSANIMA
-    :target: https://mdsanima.com
+    :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
