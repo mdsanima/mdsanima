@@ -1,20 +1,28 @@
-'''
+"""
 Animation Count Module
 ----------------------
-This is a Simple Print Animation Count.
-'''
+Terminal print output animation count.
+"""
 
 import time
 
 def count_down(print_text, count, sleep):
-    '''
-    Print text and animation countdown.
+    """
+    Print text and animation count down.
 
-    Parameter:
-        ``print_text`` `str`: Print text.
-        ``count`` `int`: Number which to count.
-        ``sleep`` `float`: How fast the countdown is supposed to be.
-    '''
+    Args:
+        print_text (str): Enter the text to be printed.
+        count (int): Counter number.
+        sleep (float): How fast the counts is supposed to be.
+    Returns:
+        print: Count down animation.
+    Usage:
+
+    .. code::
+    
+        count_down('Your text ', 20, 0.1)
+    """
+
     animation = '\\|/-'
     while (count >= 0):
         print('\r', print_text, count, animation[count % len(animation)], end = ' ', flush = True)
@@ -22,14 +30,22 @@ def count_down(print_text, count, sleep):
         time.sleep(sleep)
 
 def count_up(print_text, count, sleep):
-    '''
+    """
     Print text and animation count up.
 
-    Parameter:
-        ``print_text`` `str`: tu spisujemy co ma wyswietlic print.
-        ``count`` `int`: tu wpisujemy ilosc followers, friend, tweet.
-        ``sleep`` `float`: How fast the count up is supposed to be.
-    '''
+    Args:
+        print_text (str): Enter the text to be printed.
+        count (int): Counter number.
+        sleep (float): How fast the counts is supposed to be.
+    Returns:
+        print: Count up animation.
+    Usage:
+
+    .. code::
+    
+        count_up('Your text ', 500, 0.001)
+    """
+
     count_up = 0
     animation = '\\|/-'
     while (count >= count_up):

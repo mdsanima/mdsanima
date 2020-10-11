@@ -1,26 +1,32 @@
-'''
+"""
 Render Time Module
 ------------------
-This is a Simple Render Time Calculator.
-'''
+Simple Render Time Calculator.
+"""
 
 import time
 from datetime import datetime, timedelta
 from humanfriendly import format_timespan
 
 def render_time(frame, rt_hours, rt_min, rt_sec, node=1):
-    '''
+    """
     Simple Render Time Calculator.
 
-    Parameters:
-        ``frame`` `int`: How many frame you have to calculate render time.
-        ``rt_hours`` `int`: Hours render time one frame.
-        ``rt_min`` `int`: Minutes render time one frame.
-        ``rt_sec`` `int`: Seconds render time one frame.
-        ``node`` `int`: How many node you have. Default 1 node.
+    Args:
+        frame (int): How many frame you have to calculate render time.
+        rt_hours (int): Hours render time one frame.
+        rt_min (int): Minutes render time one frame.
+        rt_sec (int): Seconds render time one frame.
+        node (int): How many node you have. Default 1 node.
     Returns:
-        `print`: Your render time stats.
-    '''
+        print: Your render time stats.
+    Usage:
+
+    .. code::
+    
+        render_time(512, 1, 0, 24, 128)
+    """
+
     hours_conv = rt_hours * 60 * 60     # convert hours to second
     minutes_conv = rt_min * 60          # convert minutes to second
 
@@ -78,7 +84,6 @@ def render_time(frame, rt_hours, rt_min, rt_sec, node=1):
     print('{:>25}'.format('1 NODE RENDER TIME |'), rt)
     print('{:>25}'.format('START RENDERING |'), now_conv)
     print('{:>25}'.format('STOP RENDERING |'), end_time_conv)
-
 
     if node == 1:
         print('=========================================================================')

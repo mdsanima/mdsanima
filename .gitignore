@@ -1,4 +1,11 @@
+# Visual Studio Code
 *\.vscode*
+
+# Pacages
 build
 dist
 mdsanima.egg-info
+
+# Python cache file
+*.py[co]
+__pycache__
