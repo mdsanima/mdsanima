@@ -25,14 +25,14 @@ I will use this `Python Script to Download Houdini`_. Auto install Houdini scrip
 
 Just clone this repository to our AWS Linux Ubuntu Instance. Put this code in the terminal.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/
     git clone https://github.com/paulwinex/houdini_install_script.git
 
 Then run this script like this.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/
     sudo python ./houdini_install.py -u username -p password -i /opt/houdini -s y
@@ -47,7 +47,7 @@ Now upload your houidni files to the server you want to render. Use this method 
 
 Houdini is Installed and then running this command.
 
-.. prompt:: bash $
+.. code::
 
     source houdini_setup
     hkey
@@ -56,7 +56,7 @@ Install Houdini License
 -----------------------
 The next steps is to install the Houdini License on the server. Put this command in the terminal.
 
-.. prompt:: bash $
+.. code::
 
     sesictrl -L
 
@@ -68,7 +68,7 @@ When everything installed properly, we can start rendering on this server.
 
 You need to create a file like this.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/
     nano render.cmd
@@ -95,7 +95,7 @@ Then put this code in to the ``render.cmd`` file.
 
 Now you can start rendering by typing.
 
-.. prompt:: bash $
+.. code::
 
     hscript render.cmd
 
@@ -117,7 +117,7 @@ That's it, exit the server and delete it. Now you know how to render Houdini fil
 
 Just type in the terminal.
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install mdsanima
 

@@ -6,7 +6,7 @@ Python
 ------
 List of useful Python Terminal Command.
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install mdsanima                      # install package
     python -m pip install mdsanima==0.1.1               # install specific version
@@ -20,7 +20,7 @@ Linux
 -----
 List of useful Linux Terminal Command.
 
-.. prompt:: bash $
+.. code::
 
     ls -l -a -h                             # show list hide file show MB
     sudo curl ifconfig.me                   # show ip

@@ -14,7 +14,7 @@ Quick tutorial how to create a swap file. `Swap File`_ Tutorial.
 
 .. _Swap File: https://linuxize.com/post/create-a-linux-swap-file/
 
-.. prompt:: bash $
+.. code::
 
     sudo fallocate -l 1G /swapfile
     sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
@@ -35,7 +35,7 @@ Quick tutorial how to create a WSL GUI. `Config GUI Linux`_ Tutorial on YouTube.
 Config GUI
 ~~~~~~~~~~
 
-.. prompt:: bash $
+.. code::
 
     sudo apt update &&  sudo apt upgrade
     sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
@@ -61,7 +61,7 @@ Connect Putty
 Connect WSL
 ~~~~~~~~~~~
 
-.. prompt:: bash $
+.. code::
 
     echo xfce4-session > /.xsession
     sudo /etc/init.d/xrdp start

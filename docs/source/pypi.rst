@@ -210,13 +210,13 @@ We're almost done. We just need to put commands in to terminal and which will cr
 
 Install Twine
 ~~~~~~~~~~~~~
-.. prompt:: bash $
+.. code::
 
     python -m pip install twine
 
 Build Setup
 ~~~~~~~~~~~
-.. prompt:: bash $
+.. code::
 
     python setup.py sdist bdist_wheel
 
@@ -228,13 +228,13 @@ It created some new directories for us, such as ``dist``, ``build`` and ``your_p
 
 Check the Build
 ~~~~~~~~~~~~~~~
-.. prompt:: bash $
+.. code::
 
     twine check dist/*
 
 Send to Test PyPi
 ~~~~~~~~~~~~~~~~~
-.. prompt:: bash $
+.. code::
 
     twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
@@ -244,7 +244,7 @@ Go to test.pypi.org_ and check if everything is ok, if yes, we can finally send 
 
 Finally Send To PyPi
 ~~~~~~~~~~~~~~~~~~~~
-.. prompt:: bash $
+.. code::
     
     twine upload dist/*
 
@@ -276,13 +276,13 @@ You can also add commands to this script to generate documentation, before makin
 
 Now run this command.
 
-.. prompt:: bash $
+.. code::
 
     ./build_deploy.sh
 
 or
 
-.. prompt:: bash $
+.. code::
 
     ./build_deploy.sh --test
 

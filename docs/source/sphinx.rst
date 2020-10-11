@@ -7,7 +7,7 @@ Python Sphinx_ package automatically generates technical documentation for pytho
 Install Sphinx
 --------------
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install sphinx                    # install sphinx package
     python -m pip install sphinx-autoapi            # install sphinx extensions package
@@ -20,7 +20,7 @@ Install Sphinx
 Create Sphinx Documentation
 ---------------------------
 
-.. prompt:: bash $
+.. code::
 
     mkdir docs
     cd docs
@@ -30,13 +30,13 @@ Select create documentation with build and source separation. Edit ``conf.py`` f
 
 Windows PowerShell
 
-.. prompt:: bash $
+.. code::
 
     .\make.bat html
 
 Linux
 
-.. prompt:: bash $
+.. code::
 
     make html
 
@@ -75,13 +75,13 @@ Add your files .rst as you liked, check that everything is correct in the docume
 
 Windows PowerShell
 
-.. prompt:: bash $
+.. code::
 
     .\make.bat clean
 
 Linux
 
-.. prompt:: bash $
+.. code::
 
     make clean
 

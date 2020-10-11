@@ -70,7 +70,7 @@ Conncet with SSH on Linux WSL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This option is much simpler. Only put the command in to terminal.
 
-.. prompt:: bash $
+.. code::
 
     ssh -i "ssh-key.pem" ubuntu@ec2-1-11-111-111.us-east-2.compute.amazonaws.com
 
@@ -84,7 +84,7 @@ EFS Elastic File System
 
 Now go to the terminal and enter this command.
 
-.. prompt:: bash $
+.. code::
 
     apt-get update && apt-get install nfs-common -y
     cd /mnt
@@ -105,7 +105,7 @@ Download Blender
 ~~~~~~~~~~~~~~~~
 In the terminal put this command.
 
-.. prompt:: bash $
+.. code::
 
     wget https://your_serwer.com/aws/blender-2.90.0-linux64.tar.xz
     wget https://your_serwer.com/aws/your_blender_scene_v01_aws.tgz
@@ -118,14 +118,14 @@ If you don't have your own server where you store files, you can use this comman
 
 In Microsoft PowerShell Terminal.
 
-.. prompt:: bash $
+.. code::
 
     pscp -i "C:\path\ssh-key-conv.ppk" ./blender-2.90.0-linux64.tar.xz ubuntu@1.11.111.111:/mnt/efs/
     pscp -i "C:\path\ssh-key-conv.ppk" ./your_blender_scene_v01_aws.tgz ubuntu@1.11.111.111:/mnt/efs/
 
 In Linux WSL Terminal.
 
-.. prompt:: bash $
+.. code::
 
     scp -i "/home/name/path/ssh-key.pem" ./blender-2.90.0-linux64.tar.xz ubuntu@1.11.111.111:/mnt/efs/
     scp -i "/home/name/path/ssh-key.pem" ./your_blender_scene_v01_aws.tgz ubuntu@1.11.111.111:/mnt/efs/
@@ -141,7 +141,7 @@ You just need to change the path. I'll show it in a moment how to download the f
 
 All downloaded files should be in ``/mnt/efs/``.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/                                # go to direcotry
     tar -xf ./blender-2.90.0-linux64.tar.xz     # unpack Blender file
@@ -155,7 +155,7 @@ Install Pacage
 ~~~~~~~~~~~~~~
 Now update your system and install the necessary packages to run Blender properly.
 
-.. prompt:: bash $
+.. code::
 
     sudo apt-get update && sudo apt-get dist-upgrade
     sudo apt-get install libboost-all-dev
@@ -174,7 +174,7 @@ CPU One Frame
 +++++++++++++
 This command allow to render only one frame on CPU.
 
-.. prompt:: bash $
+.. code::
 
     sudo /mnt/efs/b290/blender -b '/mnt/efs/blend/sc_aws.blend' -o '/mnt/efs/blend/01/' -f 1
 
@@ -182,7 +182,7 @@ CPU All Frame
 +++++++++++++
 This command allow to render all frame on CPU.
 
-.. prompt:: bash $
+.. code::
 
     sudo /mnt/efs/b290/blender -b '/mnt/efs/blend/sc_aws.blend' -o '/mnt/efs/blend/01/' -s 1 -e 26 -a
 
@@ -194,7 +194,7 @@ Check the Amazon EC2 On-Demand Pricing or Spot Instance Pricing. All links at th
 You must be in ``/mnt/efs/``. You must also have a python script ``setgpu.py`` on your server in destination ``/mnt/efs/setgpu.py``.
 You can send it at the very beginning or create this file right now, just put this command on the terminal.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/
     nano setgpu.py
@@ -230,7 +230,7 @@ Now just save the file and close it ``crtl + x -> y -> enter``.
 
 Great now you can run this command to activate gpu rendering.
 
-.. prompt:: bash $
+.. code::
 
     cd /mnt/efs/
     sudo ./b290/blender -P setgpu.py -b '/mnt/efs/blend/sc_aws.blend' -o '/mnt/efs/blend/01/' -s 1 -e 26 -a
@@ -266,14 +266,14 @@ Now it's time to download your render file output. We do the same as with `Downl
 
 In Microsoft PowerShell Terminal.
 
-.. prompt:: bash $
+.. code::
 
     cd C:\your_blender_output\              # download all the output file in this directory
     pscp -i "C:\path\ssh-key-conv.ppk" ubuntu@1.11.111.111:/mnt/efs/blend/01/* ./
 
 In Linux WSL Terminal.
 
-.. prompt:: bash $
+.. code::
 
     cd /home/name/your_blender_output/      # download all the output file in this directory
     scp -i "/home/name/path/ssh-key.pem" ubuntu@1.11.111.111:/mnt/efs/blend/01/* ./
@@ -287,7 +287,7 @@ Now you know how to render Blender file in the cloud with command line rendering
 
 Just type in the terminal.
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install mdsanima
 

@@ -31,7 +31,7 @@ Install Package
 
     :guilabel:`MDSANIMA` package only works in ``Python 3.6`` or later.
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install mdsanima              # install latest version
     python -m pip install mdsanima==0.1.1       # install specific version
@@ -39,14 +39,14 @@ Install Package
 Upgrade Package
 ---------------
 
-.. prompt:: bash $
+.. code::
 
     python -m pip install --upgrade mdsanima    # upgrade to latest version
 
 Uninstall Package
 -----------------
 
-.. prompt:: bash $
+.. code::
 
     python -m pip uninstall mdsanima            # uninstall package
 
