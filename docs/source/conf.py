@@ -89,4 +89,8 @@ html_static_path = ['_static']
 #     'titles_only': False
 # }
 
+html_theme_options = {
+    'analytics_id': 'UA-180311294-1',  # Provided by Google in your dashboard
+}
+
 master_doc = 'index'
