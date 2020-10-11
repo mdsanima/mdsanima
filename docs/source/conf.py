@@ -43,8 +43,10 @@ extensions = [
 templates_path = ['_templates']
 
 # Markdown Parser
-source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
-source_suffix = ['.rst', '.md']
+# source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
+# source_suffix = ['.rst', '.md']
+
+source_suffix = ['.rst']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
