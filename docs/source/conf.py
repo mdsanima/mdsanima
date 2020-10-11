@@ -10,7 +10,9 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 import os
 import sys
-sys.path.append(os.path.join(os.path.dirname(__name__), '..'))
+#sys.path.append(os.path.join(os.path.dirname(__name__), '..'))
+#sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 project = 'MDSANIMA Python Pacage'
@@ -37,6 +39,7 @@ extensions = [
     'sphinx.ext.autodoc', 
     'sphinx.ext.napoleon', 
     'recommonmark',
+    'sphinx.ext.autosummary',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
