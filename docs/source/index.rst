@@ -14,7 +14,7 @@ This is a simple Python Packages developed by Marcin Różewski aka MDSANIMA_
 
 .. include:: ../../README.rst
    :start-line: 0
-   :end-line: 335
+   :end-line: 339
 
 License
 -------

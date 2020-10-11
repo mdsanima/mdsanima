@@ -1,7 +1,7 @@
 Welcome to MDSANIMA Python Package
 ==================================
 
-|latest-version-on-pypi| |supported-python-version| |documentation| |downloads|
+|latest-version-on-pypi| |supported-python-version| |github-top-language| |documentation| |downloads| 
 
 .. |latest-version-on-pypi| image:: https://img.shields.io/pypi/v/mdsanima.svg
     :alt: Latest Version on PyPi
@@ -10,6 +10,10 @@ Welcome to MDSANIMA Python Package
 .. |supported-python-version| image:: https://img.shields.io/pypi/pyversions/mdsanima.svg
     :alt: Supported Python Versions
     :target: #Installation
+
+.. |github-top-language| image:: https://img.shields.io/github/languages/top/mdsanima/mdsanima
+    :alt: GitHub Top Language
+    :target: https://github.com/mdsanima/mdsanima/
 
 .. |documentation| image:: https://readthedocs.org/projects/mdsanima/badge/?version=latest
     :alt: Documentation
