@@ -13,14 +13,6 @@ This is a simple Python Packages developed by Marcin Różewski aka MDSANIMA_
 .. _Packages: https://pypi.org/project/mdsanima/
 
 .. include:: ../../README.rst
-   :start-line: 0
-   :end-line: 343
-
-License
--------
-Mdsanima is released under the terms of `MIT License`_
-
-.. _MIT License: ../../../LICENSE
 
 .. toctree::
    :maxdepth: 2

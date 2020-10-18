@@ -21,13 +21,13 @@ but you're trying to install it on Python {}.{}
 """.format(*(REQUIRED_PYTHON + CURRENT_PYTHON)))
     sys.exit(1)
 
-VERSION = '0.1.1'
+VERSION = '0.2.0'
 PACKAGE_NAME = 'mdsanima'
 AUTHOR = 'Marcin Rozewski'
 AUTHOR_EMAIL = 'marcinrozewski@gmail.com'
 URL = 'https://github.com/mdsanima/mdsanima'
 
-LICENSE = 'MIT License'
+LICENSE = 'MIT'
 DESCRIPTION = 'The package contains modules that will help in calculating rendering time.'
 LONG_DESCRIPTION = (HERE / "README.rst").read_text()
 LONG_DESC_TYPE = "text/x-rst"
@@ -82,12 +82,18 @@ setup(name=PACKAGE_NAME,
         keywords=KEYWORDS,
         classifiers=[
             'Development Status :: 5 - Production/Stable',
+            'Environment :: Console',
             'Intended Audience :: Developers',
             'License :: OSI Approved :: MIT License',
             'Natural Language :: English',
+            'Operating System :: POSIX :: Linux',
+            'Operating System :: Microsoft :: Windows :: Windows 10',
+            'Operating System :: MacOS',
             'Programming Language :: Python :: 3',
             'Programming Language :: Python :: 3.5',
             'Programming Language :: Python :: 3.6',
             'Programming Language :: Python :: 3.7',
+            'Topic :: Multimedia :: Graphics :: 3D Rendering',
+            'Topic :: Multimedia :: Graphics :: 3D Modeling',
         ],
       )

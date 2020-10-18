@@ -41,22 +41,23 @@ Install Package
 
 .. code::
 
-    python -m pip install mdsanima              # install latest version
-    python -m pip install mdsanima==0.1.1       # install specific version
+    python -m pip install mdsanima                      # install latest version
+    python -m pip install mdsanima==0.1.1               # install specific version
 
 Upgrade Package
 ---------------
 
 .. code::
 
-    python -m pip install --upgrade mdsanima    # upgrade to latest version
+    python -m pip install --upgrade mdsanima            # upgrade to latest version
+    python -m pip install --force-reinstall msdsanima   # upgrade to latest version
 
 Uninstall Package
 -----------------
 
 .. code::
 
-    python -m pip uninstall mdsanima            # uninstall package
+    python -m pip uninstall mdsanima                    # uninstall package
 
 Usage
 -----
