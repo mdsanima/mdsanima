@@ -85,85 +85,85 @@ This tools and languages we're using every day.
 
 |ubuntu| |visual-studio-code| |python| |html| |css| |jacascript| |firebase| |azure| |aws| |sql| |mysql| |git| |github| |terminal|
 
-.. |ubuntu| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png
+.. |ubuntu| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/ubuntu.svg
     :alt: Ubuntu
     :target: https://mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |visual-studio-code| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png
+.. |visual-studio-code| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/visualstudiocode.svg
     :alt: Visual Studio Code
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |python| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+.. |python| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/python.svg
     :alt: Python
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |html| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
+.. |html| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/html5.svg
     :alt: HTML5
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |css| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png
+.. |css| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/css3.svg
     :alt: CSS3
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |jacascript| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+.. |jacascript| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/javascript.svg
     :alt: JavaScript
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |firebase| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png
+.. |firebase| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/firebase.svg
     :alt: Google Firebase
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |azure| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png
+.. |azure| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/microsoftazure.svg
     :alt: Microsoft Azure
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |aws| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png
+.. |aws| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/amazonaws.svg
     :alt: AWS
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |sql| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
-    :alt: SQL
+.. |sql| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/sqlite.svg
+    :alt: SQLite
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |mysql| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png
+.. |mysql| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/mysql.svg
     :alt: MySQL
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |git| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png
+.. |git| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/git.svg
     :alt: Git
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |github| image:: https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png
+.. |github| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/github.svg
     :alt: GitHub
     :target: https://app.mdsanima.com
     :height: 30px
     :width: 30px
 
-.. |terminal| image:: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png
+.. |terminal| image:: https://cdn.jsdelivr.net/npm/simple-icons@4.16.0/icons/windowsterminal.svg
     :alt: Terminal
     :target: https://app.mdsanima.com
     :height: 30px
