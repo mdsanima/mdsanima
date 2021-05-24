@@ -1,18 +1,11 @@
-Version 0.2.0
+Version 0.1.1
 -------------
 :Date: October 13, 2020
 
-Here we have the update steps for ``0.1.2`` for people to follow.
+Some fixes in documentation and other files. Here we have the update steps for ``0.1.1`` for people to follow.
 
 * `@mdsanima <https://github.com/mdsanima>`__: Added new function ``anim_ascii`` on ``animation`` module.
 * `@mdsanima <https://github.com/mdsanima>`__: Fixed some documentation file.
-
-Version 0.1.1
--------------
-:Date: October 11, 2020
-
-Some fixes in documentation and other files. Here we have the update steps for ``0.1.1`` for people to follow.
-
 * `@mdsanima <https://github.com/mdsanima>`__: Added sphinx documentation.
 * `@mdsanima <https://github.com/mdsanima>`__: Added keywords in ``setup.py``.
 * `@mdsanima <https://github.com/mdsanima>`__: Added classifiers in ``setup.py``.
