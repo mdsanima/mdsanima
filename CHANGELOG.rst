@@ -16,7 +16,7 @@ Some fixes in documentation and other files. Here we have the update steps for `
 
 Version 0.1.0
 -------------
-:Date: October 08, 2020
+:Date: October 8, 2020
 
 First release ``MDSANIMA`` Package. Here we have the update steps for ``0.1.0`` for people to follow.
 
