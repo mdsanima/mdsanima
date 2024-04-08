@@ -1,0 +1,16 @@
+[master]
+ignore = .git,flake8.egg-info,conf.py
+ignore-patterns = .*_test.py,.*_tmp.py
+jobs = 4
+
+[format]
+max-line-length = 120
+ignore-long-lines = ^\s+:([A-Za-z]+( [A-Za-z]+)+)_[A-Za-z]+:.*$
+max-module-lines = 1000
+
+[design]
+max-args = 20
+max-locals = 30
+max-returns = 6
+max-branches = 20
+max-statements = 50
