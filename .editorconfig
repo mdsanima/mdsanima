@@ -1,0 +1,46 @@
+# Maintain consistent coding style
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+quote_type = double
+
+[*.{commitlintrc,eslint*,html,css,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
+indent_size = 2
+max_line_length = 120
+
+[*.{yml,yaml}]
+indent_size = 2
+max_line_length = off
+
+[*.{ps1,psm1,psd1}]
+max_line_length = 115
+
+[*.py]
+profile = black
+max_line_length = 120
+
+[*.{sh,bash,zsh*,vim}]
+indent_size = 2
+max_line_length = 80
+
+[{*.svg,.env*}]
+insert_final_newline = false
+max_line_length = off
+
+[{.clang-format,.clang-tidy}]
+indent_size = 2
+
+[{CMakeLists.txt,*.{cmake,c,h,cc,hh,cpp,hpp,cxx,hxx}}]
+indent_size = 2
+max_line_length = 80
+
+[{Makefile,.gitattributes,.gitconfig,.gitcredentials,.gitmessage,.gitmodules}]
+indent_size = 8
+indent_style = tab
