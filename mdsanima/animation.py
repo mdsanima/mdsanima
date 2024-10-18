@@ -1,10 +1,15 @@
+# Copyright (c) 2020 - 2024 Marcin Różewski, MDSANIMA LAB. All rights reserved.
+# Licensed under the MIT license.
+
 """
 Animation Module
 ----------------
 Terminal print output animation.
 """
 
+
 import time
+
 
 def count_down(print_text, count, sleep):
     """
@@ -19,15 +24,16 @@ def count_down(print_text, count, sleep):
     Usage:
 
     .. code::
-    
+
         count_down('Your text ', 20, 0.1)
     """
 
-    animation = '\\|/-'
-    while (count >= 0):
-        print('\r', print_text, count, animation[count % len(animation)], end = ' ', flush = True)
+    animation = "\\|/-"
+    while count >= 0:
+        print("\r", print_text, count, animation[count % len(animation)], end=" ", flush=True)
         count -= 1
         time.sleep(sleep)
+
 
 def count_up(print_text, count, sleep):
     """
@@ -42,16 +48,17 @@ def count_up(print_text, count, sleep):
     Usage:
 
     .. code::
-    
+
         count_up('Your text ', 500, 0.001)
     """
 
-    count_up = 0
-    animation = '\\|/-'
-    while (count >= count_up):
-        print('\r', print_text, count_up, animation[count_up % len(animation)], end = ' ', flush = True)
-        count_up += 1
+    counter = 0
+    animation = "\\|/-"
+    while count >= counter:
+        print("\r", print_text, counter, animation[counter % len(animation)], end=" ", flush=True)
+        counter += 1
         time.sleep(sleep)
+
 
 def anim_ascii():
     """
@@ -62,11 +69,11 @@ def anim_ascii():
     Usage:
 
     .. code::
-    
+
         anim_ascii()
     """
 
-    count_up = 0
+    counter = 0
     ascii_foto = """oool:;,''',,'',:okKNNNNNKOxoc;;;:ldkkOOO000000000000KKKKKKKKK0OkkOXNNNNNN
 coddlc:;,'',,,,cx0XXXXKOxoc;;;;;:oxkkOOO000000000000KKKKKKKK000kxkOKXNNXX
 ';lxxdlc:;,',;;ck0K00Odl:,,'',::ldkkkkOOO0000000000000KKKKK00KKOkddkKXXXX
@@ -101,7 +108,7 @@ kkkkxl,';;cl:;;:ldoccdkkxdoolc:;'',,,,,,,''..'''''''',;ldkOOOxdxkkOOkkOO0
 kkkkd;....';;;,;codoodddolllc:::,',,,,,,,,,,''''..',:oxkOOkkkxdxxkkkkO0OO
 kxxdc...',:coxxxkkkkxxdooollc::::;;,,,,;;;;::cclccldxkkkkkkxxxxxxkkkxxkO0
 """
-    while (2440 >= count_up):
-        print(ascii_foto[count_up % len(ascii_foto)], end = '', flush = True)
-        count_up += 1
+    while 2440 >= counter:
+        print(ascii_foto[counter % len(ascii_foto)], end="", flush=True)
+        counter += 1
         time.sleep(0.0001)

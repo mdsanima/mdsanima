@@ -1,12 +1,18 @@
+# Copyright (c) 2020 - 2024 Marcin Różewski, MDSANIMA LAB. All rights reserved.
+# Licensed under the MIT license.
+
 """
 Render Time Module
 ------------------
 Simple Render Time Calculator.
 """
 
-import time
-from datetime import datetime, timedelta
+
+from datetime import datetime
+from datetime import timedelta
+
 from humanfriendly import format_timespan
+
 
 def render_time(frame, rt_hours, rt_min, rt_sec, node=1):
     """
@@ -23,12 +29,12 @@ def render_time(frame, rt_hours, rt_min, rt_sec, node=1):
     Usage:
 
     .. code::
-    
+
         render_time(512, 1, 0, 24, 128)
     """
 
-    hours_conv = rt_hours * 60 * 60     # convert hours to second
-    minutes_conv = rt_min * 60          # convert minutes to second
+    hours_conv = rt_hours * 60 * 60  # convert hours to second
+    minutes_conv = rt_min * 60  # convert minutes to second
 
     time_conv = hours_conv + minutes_conv + rt_sec
     render_time_val = time_conv * frame
@@ -64,32 +70,32 @@ def render_time(frame, rt_hours, rt_min, rt_sec, node=1):
     fps_60 = frame / 60
     fps_60_conv = format_timespan(fps_60)
 
-    print('=========================================================================')
-    print('                     MDSANIMA RENDER TIME CALCULATOR')
-    print('=========================================================================')
-    print('         HOW MANY FRAME |', frame, 'frames')
-    print('-------------------------------------------------------------------------')
-    print('               23.98fps |', '{:>37}'.format(fps_23_conv), 'animation')
-    print('                  24fps |', '{:>37}'.format(fps_24_conv), 'animation')
-    print('                  25fps |', '{:>37}'.format(fps_25_conv), 'animation')
-    print('               29.97fps |', '{:>37}'.format(fps_29_conv), 'animation')
-    print('                  30fps |', '{:>37}'.format(fps_30_conv), 'animation')
-    print('                  50fps |', '{:>37}'.format(fps_50_conv), 'animation')
-    print('               59.94fps |', '{:>37}'.format(fps_59_conv), 'animation')
-    print('                  60fps |', '{:>37}'.format(fps_60_conv), 'animation')
-    print('-------------------------------------------------------------------------')
-    print('  RENDER TIME ONE FRAME |', time_conv_span)
-    print('          HOW MANY NODE |', node, 'node')
-    print('=========================================================================')
-    print('{:>25}'.format('1 NODE RENDER TIME |'), rt)
-    print('{:>25}'.format('START RENDERING |'), now_conv)
-    print('{:>25}'.format('STOP RENDERING |'), end_time_conv)
+    print("=========================================================================")
+    print("                     MDSANIMA RENDER TIME CALCULATOR")
+    print("=========================================================================")
+    print("         HOW MANY FRAME |", frame, "frames")
+    print("-------------------------------------------------------------------------")
+    print("               23.98fps |", "{:>37}".format(fps_23_conv), "animation")
+    print("                  24fps |", "{:>37}".format(fps_24_conv), "animation")
+    print("                  25fps |", "{:>37}".format(fps_25_conv), "animation")
+    print("               29.97fps |", "{:>37}".format(fps_29_conv), "animation")
+    print("                  30fps |", "{:>37}".format(fps_30_conv), "animation")
+    print("                  50fps |", "{:>37}".format(fps_50_conv), "animation")
+    print("               59.94fps |", "{:>37}".format(fps_59_conv), "animation")
+    print("                  60fps |", "{:>37}".format(fps_60_conv), "animation")
+    print("-------------------------------------------------------------------------")
+    print("  RENDER TIME ONE FRAME |", time_conv_span)
+    print("          HOW MANY NODE |", node, "node")
+    print("=========================================================================")
+    print("{:>25}".format("1 NODE RENDER TIME |"), rt)
+    print("{:>25}".format("START RENDERING |"), now_conv)
+    print("{:>25}".format("STOP RENDERING |"), end_time_conv)
 
     if node == 1:
-        print('=========================================================================')
+        print("=========================================================================")
     else:
-        print('-------------------------------------------------------------------------')
-        print('{:>6}'.format(node), 'NODE RENDER TIME |', rt_node)
-        print('{:>25}'.format('START RENDERING |'), now_conv)
-        print('{:>25}'.format('STOP RENDERING |'), end_time_node_conv)
-        print('=========================================================================')
+        print("-------------------------------------------------------------------------")
+        print("{:>6}".format(node), "NODE RENDER TIME |", rt_node)
+        print("{:>25}".format("START RENDERING |"), now_conv)
+        print("{:>25}".format("STOP RENDERING |"), end_time_node_conv)
+        print("=========================================================================")
