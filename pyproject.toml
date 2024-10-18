@@ -1,0 +1,105 @@
+# Configuration file for Python package thats is published on PyPI using Twine.
+
+[build-system]
+requires = ["setuptools>=69.2", "wheel>=0.43", "setuptools_scm[toml]>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdsanima"
+dynamic = ["version"]
+description = "The package contains modules that will help in calculating rendering time"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Marcin Różewski", email = "marcinrozewski@gmail.com" }]
+keywords = [
+    "blender",
+    "blener3d",
+    "calculator render time",
+    "cinema4d",
+    "clarisse ifx",
+    "cycles",
+    "houdini",
+    "mantra",
+    "mdsanima",
+    "octane render",
+    "redshift",
+    "render engine",
+    "render time",
+    "rendering",
+    "sidefx",
+    "vfx",
+    "vray",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+]
+dependencies = ["humanfriendly==10.0"]
+
+[project.optional-dependencies]
+dev = [
+    "black==24.3.0",
+    "build==1.2.1",
+    "flake8==7.0.0",
+    "ipython==8.23.0",
+    "isort==5.13.2",
+    "pylint==3.1.0",
+    "pytest-cov==5.0.0",
+    "pytest==8.1.1",
+    "setuptools-scm==8.0.4",
+    "setuptools==69.2.0",
+    "twine==5.0.0",
+    "virtualenv==20.25.1",
+    "wheel==0.43.0",
+]
+doc = [
+    "furo==2024.1.29",
+    "myst-parser==2.0.0",
+    "sphinx-copybutton==0.5.2",
+    "sphinx-design==0.5.0",
+    "sphinx-inline-tabs==2023.4.21",
+    "sphinx==7.2.6",
+    "sphinxext-opengraph==0.9.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/mdsanima/mdsanima/"
+Documentation = "https://mdsanima.readthedocs.io/"
+Repository = "https://github.com/mdsanima/mdsanima.git"
+Changelog = "https://github.com/mdsanima/mdsanima/blob/main/CHANGELOG.md"
+Tracker = "https://github.com/mdsanima/mdsanima/issues/"
+
+[project.scripts]
+# mdsanima = "mdsanima.utils.converts:main"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+known_first_party = ["mdsanima"]
+force_single_line = true
+lines_before_imports = 2
+lines_after_imports = 2
+treat_all_comments_as_code = true
+extend_skip = [".md", ".json"]
+
+[tool.setuptools.package-dir]
+mdsanima = "mdsanima"
+
+[tool.setuptools_scm]
+write_to = "mdsanima/_version.py"
