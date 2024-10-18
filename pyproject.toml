@@ -67,7 +67,7 @@ dev = [
     "wheel==0.43.0",
 ]
 doc = [
-    "furo==2024.1.29",
+    "furo==2024.8.6",
     "myst-parser==2.0.0",
     "sphinx-copybutton==0.5.2",
     "sphinx-design==0.5.0",
