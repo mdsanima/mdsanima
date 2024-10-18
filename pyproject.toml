@@ -53,7 +53,7 @@ dependencies = ["humanfriendly==10.0"]
 [project.optional-dependencies]
 dev = [
     "black==24.3.0",
-    "build==1.2.1",
+    "build==1.2.2.post1",
     "flake8==7.0.0",
     "ipython==8.23.0",
     "isort==5.13.2",
